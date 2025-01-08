@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tesla Carol L.</title>
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="chave.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="icon" href="TESLA.PNG">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!--VIDEO DE FUNDO-->
+    <div id="background">
+        <video loop autoplay muted>
+            <source src="./videoplayback.mp4" type="video/mp4">
+        </video>
+    </div>
+
+             <!--menuzito-->
+    <div id="menu">
+        <header>
+            <img src="TESLA.PNG" alt="Logo">
+            <ul class="menu">
+                <li><a href="#">LOJA</a></li>
+                <li><a href="#">LANÇAMENTOS</a></li>
+                <li><a href="#">MODELOS</a></li>
+                <li><a href="#">SOBRE NÓS</a></li>
+            </ul>
+
+        <!--ICONES-->
+            <div class="nav-icon">
+                <a href="#"><i class='bx bx-search' style='color:#fdf9f9'></i></a>
+                <a href="#"><i class='bx bx-user-circle' style='color:#ffffff'></i></a>
+                <a href="#"><i class='bx bxs-battery-charging' style='color:#fdf9f9'></i></a>
+                <a href="#"><i class='bx bx-menu' style='color:#ffffff'></i></a>
+            </div>    
+
+        </header>
+    </div>
+
+    <!--TEXTO-->
+    <main>  
+        <div class="main_info">
+            <p>O FUTURO AGUARDA VOCÊ</p>
+        </div>
+
+        <div class="second_text">
+            <span>ESCREVA O SEU HOJE, JUNTO AO LUXO E A INOVAÇÃO</span>
+        </div>
+
+        <!--ANIMACAO DA CHAVE-->
+        <div class="container">
+            <div class="flip-container" id="flipContainer">
+                <img src="def.png" alt="Imagem de Flip" id="flipImage">
+            </div>
+            <audio id="audioPlayer" src="join.mp3"></audio>
+        </div>
+    </main>
+
+    <footer>
+        <p>Regule o volume e clique na chave.</p>
+    </footer>
+</body>
+</html>

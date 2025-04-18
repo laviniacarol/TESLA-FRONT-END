@@ -1,4 +1,2 @@
-LANDING PAGE SITE TESLA COM ANIMAÇÃO DE CHAVE DO CARRO :) 
-PRIMEIRO REPOSITÓRIO POSTADO NO GIT, PRIMEIRO PROJETO FEITO E CONCLUÍDO;SOMENTE PARA ESTUDO.
-Segue o link abaixo do projeto no ar
-https://67b958da4b59d7b4dc203aa8--courageous-maamoul-f03854.netlify.app/
+Imagem do projeto landing page do Tesla (contém animação)
+![front](https://github.com/user-attachments/assets/9a138e62-fb66-4899-9403-db8ad67bd9a7)
